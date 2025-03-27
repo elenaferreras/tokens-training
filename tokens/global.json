@@ -146,11 +146,11 @@
   "fontFamily": {
     "primary": {
       "$type": "fontFamilies",
-      "$value": "Space Grotesk"
+      "$value": "Pixelify Sans"
     },
     "secondary": {
       "$type": "fontFamilies",
-      "$value": "Outfit"
+      "$value": "Sometype Mono"
     }
   },
   "lineHeight": {
@@ -164,10 +164,6 @@
     }
   },
   "fontWeight": {
-    "light": {
-      "$type": "fontWeights",
-      "$value": "Light"
-    },
     "regular": {
       "$type": "fontWeights",
       "$value": "Regular"

@@ -2,15 +2,15 @@
   "hero": {
     "title": {
       "$type": "text",
-      "$value": "Learn how to design and implement Design Tokens"
+      "$value": "Learn to design 2D games with Unity"
     },
     "subtitle": {
       "$type": "text",
-      "$value": "A Spanish training course so you can master the design, distribution, and application of the Design Tokens methodology"
+      "$value": "Master the pixel art creation, animation and programming to turn your ideas into videogames"
     },
     "button": {
       "$type": "text",
-      "$value": "2nd Call Open →"
+      "$value": "Sign up →"
     }
   },
   "intro": {
