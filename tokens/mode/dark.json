@@ -44,11 +44,21 @@
       "border": {
         "primary": {
           "$type": "color",
-          "$value": "{color.palette.mono.600}"
+          "$value": "{color.button.border.primary.default}"
         },
         "accent": {
           "$type": "color",
           "$value": "{color.palette.accent.500}"
+        }
+      },
+      "shadow": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.palette.white}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.button.border.secondary.default}"
         }
       }
     },

@@ -271,7 +271,7 @@
       "$value": "uppercase"
     }
   },
-  "box-shadow-medium": {
+  "medium": {
     "$type": "boxShadow",
     "$value": {
       "x": "- {dimension.x100}",
