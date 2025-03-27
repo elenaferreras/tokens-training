@@ -257,9 +257,11 @@
       "color.palette.mono.100": "S:365eceb69839c46e377ab52429f0548978874604,",
       "color.palette.mono.950": "S:abf7d00718047f9d5dc8dacf12c4b9e691c0f9c1,",
       "color.palette.black": "S:e378e61c52484604efa5c53cadd70198acd757dc,",
-      "font.button.default": "S:3c65b99fa9fd935a1d3bdd91e6587653c7a60738,"
+      "font.button.default": "S:3c65b99fa9fd935a1d3bdd91e6587653c7a60738,",
+      "box-shadow-medium": "S:434e7a32eab0d25f695676ee012f8fafa66e4c20,"
     },
     "$figmaVariableReferences": {
+      "dimension.x000": "5401010e92a5e59aebddce2ca799ff998feb11ac",
       "dimension.x025": "2b32a3e1465268fe8cf149242dc3e83e2e2ee15d",
       "dimension.x050": "3f49f2e1562ac82110e726084080de4d01508180",
       "dimension.x100": "034ed0adeaccf32859e83fe6545e9e676ee66d82",
@@ -390,17 +392,17 @@
       "global": "source"
     },
     "$figmaStyleReferences": {
-      "font.headline.xl": "S:1e5e463936c4a3d76cfafb7ad9877e2024938496,",
-      "font.headline.l": "S:4e8a1fc11ef84b0a7ddcb25857f1d522e7ae15de,",
-      "font.headline.m": "S:3a9a7accabcc459b92d9ada76d30117f4565131d,",
-      "font.body.l.default": "S:f1fdf4cbfd52bf5b2c2abec655c998660db0b8ca,",
-      "font.body.l.strong": "S:1328c76610787ffec24a68a1156daeee520fdfea,",
-      "font.body.m.default": "S:bcdf6358d690331341994c4885d3202f9c61b111,",
-      "font.body.m.strong": "S:2f7137355e5d12c766e7b806befa337279652a9c,",
-      "font.caption.m.default": "S:b84d33945b2af9112cb8f6bc76cee00da6716bc8,",
-      "font.caption.m.strong": "S:e0708c9a381a981b454955eb70a69de4e42b64bc,",
-      "font.caption.m.uppercase": "S:94b063ff6d769970cd14cd55872ae00aa43d075c,",
-      "font.caption.m.underline": "S:399b6d929c1ea67502b9ab09bbd18ff3bd893efe,"
+      "font.headline.xl": "S:dcf08700d5a12c06dc4637dbcf6b8bd9dc76b553,",
+      "font.headline.l": "S:2472ba80405cf1736f01c1f69948e9786cbb12a3,",
+      "font.headline.m": "S:e0e2e13b4fd5b4f61c2b4473b2789994437b1781,",
+      "font.body.l.default": "S:b1b0fde63c953ab54da664403766d012fa0340c3,",
+      "font.body.l.strong": "S:6cb0b89f40a887b424ef3c08654b6bd72beeb4f3,",
+      "font.body.m.default": "S:3f3d075cd6eeaf6bf0064e747caff885db46f4ca,",
+      "font.body.m.strong": "S:715b8f4c6c59295fdaa6a3e067b16c0fd14464a0,",
+      "font.caption.m.default": "S:21a5549f1439c9f58c5980669444fafe4eb4d95e,",
+      "font.caption.m.strong": "S:2182721dce9c2d8ca3c6941e10153879bf4849d6,",
+      "font.caption.m.uppercase": "S:0fc8dbd63c6b10a41374ba583905d2e629537dee,",
+      "font.caption.m.underline": "S:797fd4b9d3bc1c986d336f9f447b51660ba0af97,"
     },
     "$figmaVariableReferences": {}
   },
@@ -413,17 +415,17 @@
       "global": "source"
     },
     "$figmaStyleReferences": {
-      "font.headline.xl": "S:65e788f8f3f6b1fb234b040ca0e5015d86c6a6d0,",
-      "font.headline.l": "S:54d254a3c5ab34c9b3a1892ffa67f2adb3026237,",
-      "font.headline.m": "S:035fdaacf43630bd09f5e77dd3589017cc5b1d73,",
-      "font.body.l.default": "S:c1f7ee706e68c769333d1a03ac4eb03c08d2ef54,",
-      "font.body.l.strong": "S:2ad2e0d031b690ac6b94cb0222b0d5cefc8ea342,",
-      "font.body.m.default": "S:4386b8b716d3b79587f30386f93f379e56762156,",
-      "font.body.m.strong": "S:1af1de585bc83cd652ac09d8f32dd2d610bcd754,",
-      "font.caption.m.default": "S:cd6733bae72de31c57f5089a1c9af04748909d17,",
-      "font.caption.m.strong": "S:0d300178feb64d00ffbb237cf6c63da45cfc28d4,",
-      "font.caption.m.uppercase": "S:8de13a19ef44dbc7755d0b11371fcb820daf873a,",
-      "font.caption.m.underline": "S:2e5c2dd812b1a999b25cfb2c5645aea2e90201f6,"
+      "font.headline.xl": "S:34ff2e006b94f3ebfb88765a28f743a7e978c87d,",
+      "font.headline.l": "S:2e33aceedda17dab1c9c9d30eff2068608f02dd8,",
+      "font.headline.m": "S:11cf80382d8c6df8240f2ccc3f0a0468f45dd289,",
+      "font.body.l.default": "S:3a3d65239783d46e245a516ddfbf5cb612ca6b2f,",
+      "font.body.l.strong": "S:e3c4c95860379dea89e29faa38e386b031466ba1,",
+      "font.body.m.default": "S:4e7569d4a8650804079df5bdc27e02031a4fcdcc,",
+      "font.body.m.strong": "S:51b09185c30966e3daf651ff29d49adbec5495be,",
+      "font.caption.m.default": "S:b6027b02fe1b29233ac151225ca899038b90efe2,",
+      "font.caption.m.strong": "S:49b08433ebf50be7b7981e25edf3ba23dc61ef00,",
+      "font.caption.m.uppercase": "S:99701505db4227b95034cbc967f4ecacdd9e440d,",
+      "font.caption.m.underline": "S:caeb39459e80630e8ff9ac75858ce6c1a2c1a16a,"
     },
     "$figmaVariableReferences": {}
   },

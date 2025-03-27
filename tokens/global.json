@@ -1,5 +1,9 @@
 {
   "dimension": {
+    "x000": {
+      "$type": "dimension",
+      "$value": "{dimension.x100}*0"
+    },
     "x025": {
       "$type": "dimension",
       "$value": "{dimension.x100} / 4"
@@ -132,15 +136,15 @@
   "borderRadius": {
     "small": {
       "$type": "borderRadius",
-      "$value": "{dimension.x100}"
+      "$value": "{dimension.x000}"
     },
     "medium": {
       "$type": "borderRadius",
-      "$value": "{dimension.x600}"
+      "$value": "{dimension.x100}"
     },
     "large": {
       "$type": "borderRadius",
-      "$value": "{dimension.x1000}"
+      "$value": "{dimension.x600}"
     }
   },
   "fontFamily": {
@@ -265,6 +269,17 @@
     "uppercase": {
       "$type": "textCase",
       "$value": "uppercase"
+    }
+  },
+  "box-shadow-medium": {
+    "$type": "boxShadow",
+    "$value": {
+      "x": "- {dimension.x100}",
+      "y": "{dimension.x100}",
+      "blur": "0",
+      "spread": "0",
+      "color": "{color.core.border.primary}",
+      "type": "dropShadow"
     }
   }
 }
