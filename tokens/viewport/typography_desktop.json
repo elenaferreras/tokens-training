@@ -5,9 +5,9 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.medium}",
+          "fontWeight": "{fontWeight.primary.medium}",
           "lineHeight": "{lineHeight.small}",
-          "fontSize": "{fontSize.1000}",
+          "fontSize": "{fontSize.1000}*2",
           "letterSpacing": "{letterSpacing.contracted}"
         }
       },
@@ -15,7 +15,7 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.medium}",
+          "fontWeight": "{fontWeight.primary.medium}",
           "lineHeight": "{lineHeight.small}",
           "fontSize": "{fontSize.900}",
           "letterSpacing": "{letterSpacing.contracted}"
@@ -25,7 +25,7 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.medium}",
+          "fontWeight": "{fontWeight.primary.medium}",
           "lineHeight": "{lineHeight.small}",
           "fontSize": "{fontSize.600}",
           "letterSpacing": "{letterSpacing.contracted}"
@@ -48,7 +48,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontWeight": "{fontWeight.secondary.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.400}",
             "letterSpacing": "{letterSpacing.default}"
@@ -70,7 +70,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontWeight": "{fontWeight.secondary.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.100}",
             "letterSpacing": "{letterSpacing.default}"
@@ -94,7 +94,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontWeight": "{fontWeight.secondary.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
             "letterSpacing": "{letterSpacing.default}"
@@ -104,7 +104,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{fontFamily.primary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontWeight": "{fontWeight.secondary.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
             "letterSpacing": "{letterSpacing.expanded}",

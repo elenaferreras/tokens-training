@@ -5,7 +5,7 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.medium}",
+          "fontWeight": "{fontWeight.primary.medium}",
           "fontSize": "{fontSize.100}",
           "lineHeight": "{lineHeight.small}"
         }
@@ -40,6 +40,17 @@
           "blur": "0",
           "spread": "0",
           "color": "{color.core.shadow.primary}",
+          "type": "dropShadow"
+        }
+      },
+      "secondary": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "-4",
+          "y": "4",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.palette.mono.700}",
           "type": "dropShadow"
         }
       }

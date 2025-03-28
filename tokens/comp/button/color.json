@@ -31,7 +31,7 @@
         "primary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.content.inverse}"
+            "$value": "{color.core.content.primary}"
           },
           "hover": {
             "$type": "color",
@@ -45,15 +45,15 @@
         "secondary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.content.accent}"
+            "$value": "{color.core.content.primary}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.core.content.accent}"
+            "$value": "{color.core.content.primary}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.core.content.accent}"
+            "$value": "{color.core.content.primary}"
           }
         }
       },
@@ -75,15 +75,15 @@
         "secondary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.border.accent}"
+            "$value": "{color.core.border.primary}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.core.border.accent}"
+            "$value": "{color.core.border.primary}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.core.border.accent}"
+            "$value": "{color.core.border.primary}"
           }
         }
       }

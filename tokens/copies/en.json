@@ -16,16 +16,16 @@
   "intro": {
     "title": {
       "$type": "text",
-      "$value": "Why Design Tokens"
+      "$value": "Learn to Create Your Own 2D Video Game with Unity: Step-by-Step Guide"
     },
     "subtitle": {
       "p1": {
         "$type": "text",
-        "$value": "Design Tokens have established themselves as the methodology of choice for communicating design decisions between brands, teams, and technologies. Their potential is based on the idea of creating a single source of truth, a common guide from which all decisions are distributed."
+        "$value": "In this course, you will learn how to create your own 2D video game from scratch using Unity. You will start with an introduction to the software, learning how to install it, get familiar with the interface, and create your first project. Then, you will discover Unity's key tools, such as handling animations, basic programming for control interactions, and implementing components like Rigidbody 2D and Collider 2D to add gravity and movement to the character."
       },
       "p2": {
         "$type": "text",
-        "$value": "If you are interested in optimizing development times, team communication, or design systems in scaled organizations, this course is for you."
+        "$value": "As you progress, you will learn how to create 2D environments with Tilemap, design user interfaces, and develop start and Game Over menus. Finally, you will fine-tune additional details such as the camera that follows the character, add sounds and special effects, and optimize your game for export and play, leaving your project ready to be shared."
       }
     },
     "button": {
@@ -57,7 +57,7 @@
       },
       "two": {
         "$type": "text",
-        "$value": "24 HOURS"
+        "$value": "8 courses"
       },
       "three": {
         "$type": "text",

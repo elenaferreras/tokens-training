@@ -150,11 +150,11 @@
   "fontFamily": {
     "primary": {
       "$type": "fontFamilies",
-      "$value": "Pixelify Sans"
+      "$value": "TINY 5x3"
     },
     "secondary": {
       "$type": "fontFamilies",
-      "$value": "Sometype Mono"
+      "$value": "Pixelify Sans"
     }
   },
   "lineHeight": {
@@ -168,17 +168,33 @@
     }
   },
   "fontWeight": {
-    "regular": {
-      "$type": "fontWeights",
-      "$value": "Regular"
+    "secondary": {
+      "regular": {
+        "$type": "fontWeights",
+        "$value": "Regular"
+      },
+      "medium": {
+        "$type": "fontWeights",
+        "$value": "Medium"
+      },
+      "semibold": {
+        "$type": "fontWeights",
+        "$value": "SemiBold"
+      }
     },
-    "medium": {
-      "$type": "fontWeights",
-      "$value": "Medium"
-    },
-    "semibold": {
-      "$type": "fontWeights",
-      "$value": "SemiBold"
+    "primary": {
+      "regular": {
+        "$type": "fontWeights",
+        "$value": "100"
+      },
+      "medium": {
+        "$type": "fontWeights",
+        "$value": "140"
+      },
+      "semibold": {
+        "$type": "fontWeights",
+        "$value": "160"
+      }
     }
   },
   "fontSize": {

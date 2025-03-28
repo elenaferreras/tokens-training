@@ -16,16 +16,16 @@
   "intro": {
     "title": {
       "$type": "text",
-      "$value": "Por qué Design Tokens"
+      "$value": "Aprende a Crear Tu Propio Videojuego 2D con Unity: Guía Paso a Paso"
     },
     "subtitle": {
       "p1": {
         "$type": "text",
-        "$value": "Los Design Tokens se han establecido como la metodología por excelencia para comunicar las decisiones de diseño entre marcas, equipos y tecnologías. Su potencial se basa en la idea de crear una fuente de la verdad, una guía común desde la que se distribuyan todas las decisiones."
+        "$value": "En este curso aprenderás a crear tu propio videojuego 2D desde cero utilizando Unity. Comenzarás con una introducción al software, aprendiendo a instalarlo, conocer su interfaz y a crear tu primer proyecto. Luego, descubrirás las herramientas clave de Unity, como el manejo de animaciones, la programación básica para interactuar con los controles, y la implementación de componentes como Rigidbody 2D y Collider 2D para añadir gravedad y movimientos al personaje."
       },
       "p2": {
         "$type": "text",
-        "$value": "Si te interesa optimizar los tiempos de desarrollo, la comunicación entre equipos o los sistemas de diseño en empresas en escala, este curso es para tí."
+        "$value": "A medida que avances, aprenderás a crear escenarios 2D con Tilemap, diseñar interfaces de usuario, y desarrollar menús de inicio y Game Over. Finalmente, afinarás detalles adicionales como la cámara que sigue al personaje, la incorporación de sonidos y efectos especiales, y optimizarás tu juego para exportarlo y jugarlo, dejando listo tu proyecto para ser compartido."
       }
     },
     "button": {
@@ -53,7 +53,7 @@
     "tag": {
       "one": {
         "$type": "text",
-        "$value": "12 SESIONES EN DIRECTO"
+        "$value": "8 CURSOS"
       },
       "two": {
         "$type": "text",
@@ -76,39 +76,40 @@
       "one": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 1 - LUNES 10 DE MARZO"
+          "$value": "SESIÓN 1"
         },
         "title": {
           "$type": "text",
-          "$value": "La fuente de la verdad"
+          "$value": "Introducción a Unity y conceptos básicos"
         },
         "description": {
           "$type": "text",
-          "$value": "Hablaremos del problema de comunicación entre los equipos de diseño y desarrollo y cómo los Design Tokens te ayudarán a mejorar el proceso, siendo la fuente de la verdad. Además de presentarnos y profundizar en lo que veremos durante el curso, mostraremos cómo es un flujo completo desde el diseño a la implementación."
+          "$value": "Conoce la interfaz y las funciones principales para crear tu primer proyecto."
         }
       },
       "two": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 2 - MARTES 11 DE MARZO"
+          "$value": "SESIÓN 2"
         },
         "title": {
           "$type": "text",
-          "$value": "Arquitectura de Tokens"
+          "$value": "Unity para juegos 2D"
         },
         "description": {
           "$type": "text",
-          "$value": "Profundizarás en la teoría y buenas prácticas detrás de la implementación de Design Tokens. El objetivo será tener claros los principios y entender la toma de decisiones de su creación."
+          "$value": "Domina las herramientas y utilidades que Unity ofrece para crear tu videojuego 2D."
         }
       },
       "three": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 3 - JUEVES 13 DE MARZO"
+          "$value": "SESIÓN 3"
         },
         "title": {
           "$type": "text",
-          "$value": "Sincronización con Github"
+          "$value": "Programación para videojuegos",
+          "$description": "Aprende los conceptos básicos de programación para videojuegos."
         },
         "description": {
           "$type": "text",
@@ -118,11 +119,12 @@
       "four": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 4, 5, 6 - 17, 18, 20 DE MARZO"
+          "$value": "SESIÓN 4"
         },
         "title": {
           "$type": "text",
-          "$value": "Prácticas en Figma y Token Studio"
+          "$value": "Animación en 2D",
+          "$description": "Crea tu primera animación 2D en Unity"
         },
         "description": {
           "$type": "text",
@@ -132,85 +134,57 @@
       "five": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 7 - LUNES 24 DE MARZO"
+          "$value": "SESIÓN 5"
         },
         "title": {
           "$type": "text",
-          "$value": "Style Dictionary"
+          "$value": "Físicas 2D en Unity"
         },
         "description": {
           "$type": "text",
-          "$value": "Descubrirás cómo utilizar Style Dictionary para gestionar tus Design Tokens a partir de una única fuente de la verdad. Veremos cómo configurarlo y alimentarlo desde los Tokens de Figma almacenados en Github."
+          "$value": "Profundiza en la física y descubre las herramientas para controlar la gravedad."
         }
       },
       "six": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 8 - MARTES 25 DE MARZO"
+          "$value": "SESIÓN 6"
         },
         "title": {
           "$type": "text",
-          "$value": "Transformadores"
+          "$value": "La herramienta Tilemap"
         },
         "description": {
           "$type": "text",
-          "$value": "En esta sesión, aprenderás a usar transformadores en Style Dictionary para convertir y adaptar los Design Tokens a las diferentes necesidades de la plataforma."
+          "$value": "Crea escenarios únicos con la herramienta Tilemap."
         }
       },
       "seven": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 9 - JUEVES 27 DE MARZO"
+          "$value": "SESIÓN 7"
         },
         "title": {
           "$type": "text",
-          "$value": "Formatos"
+          "$value": "Interfaz de Usuario (UI)"
         },
         "description": {
           "$type": "text",
-          "$value": "Verás cómo usar los formatos en Style Dictionary para definir la salida de los Design Tokens en diferentes lenguajes y plataformas (CSS, JavaScript, Swift, XML, etc.). Aprenderás a crear formatos personalizados que se adapten a las necesidades específicas de tu proyecto, permitiendo un flujo de trabajo más eficiente entre el diseño y el desarrollo."
+          "$value": "Aprende a crear los menú de inicio y game over de tu videojuego."
         }
       },
       "eight": {
         "caption": {
           "$type": "text",
-          "$value": "SESIÓN 10 - LUNES 31 DE MARZO"
+          "$value": "SESIÓN 8"
         },
         "title": {
           "$type": "text",
-          "$value": "Dark Mode"
+          "$value": "Creemos un juego"
         },
         "description": {
           "$type": "text",
-          "$value": "Descubrirás el flujo completo para implementar el Dark Mode en proyectos utilizando Style Dictionary."
-        }
-      },
-      "nine": {
-        "caption": {
-          "$type": "text",
-          "$value": "SESIÓN 11 - MARTES 1 DE ABRIL"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Práctica de código"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Pondremos en práctica todo lo visto en las clases de transformadores y formatos, para que no te quede ninguna duda."
-        }
-      },
-      "ten": {
-        "caption": {
-          "$type": "text",
-          "$value": "SESIÓN 12 - JUEVES 3 DE ABRIL"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Presentaciones"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Será una oportunidad para compartir los temas con Design Tokens que se han desarrollado durante el curso, intercambiando ideas, mejoras y despedirnos."
+          "$value": "Añade los últimos detalles para finalizar tu videojuego como un profesional."
         }
       }
     }
@@ -219,11 +193,11 @@
     "one": {
       "name": {
         "$type": "text",
-        "$value": "Pablo Fernández Franco"
+        "$value": "Elena Ferreras"
       },
       "position": {
         "$type": "text",
-        "$value": "Platform Team Lead en idealista"
+        "$value": "Design Systems en Haufe"
       }
     },
     "two": {
@@ -238,7 +212,7 @@
     },
     "title": {
       "$type": "text",
-      "$value": "Conoce a los profesores"
+      "$value": "Conoce al profesor"
     }
   },
   "pricing": {
