@@ -2,7 +2,7 @@ import type { Route } from './+types/home';
 import HomePage from '../home/home';
 
 export async function loader () {
-  const texts = await import('../build/en/texts.json');
+  const texts = await import('../texts.json');
 
   return { texts };
 }
