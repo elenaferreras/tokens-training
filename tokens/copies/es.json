@@ -2,7 +2,7 @@
   "hero": {
     "title": {
       "$type": "text",
-      "$value": "Aprende a diseñar juegos 2D en Unity"
+      "$value": "Diseña juegos 2D en Unity"
     },
     "subtitle": {
       "$type": "text",
@@ -42,7 +42,7 @@
   "logos": {
     "title": {
       "$type": "text",
-      "$value": "Las grandes empresas ya trabajan con Design Tokens"
+      "$value": "Las grandes empresas ya trabajan con Unity"
     }
   },
   "sessions": {
@@ -212,7 +212,7 @@
     },
     "title": {
       "$type": "text",
-      "$value": "Conoce al profesor"
+      "$value": "Conoce a la profesora"
     }
   },
   "pricing": {
@@ -299,31 +299,31 @@
     "one": {
       "title": {
         "$type": "text",
-        "$value": "¿Cuándo serán las clases?"
+        "$value": "¿Necesito experiencia previa en programación o diseño para tomar este curso?"
       },
       "description": {
         "$type": "text",
-        "$value": "La 2ª edición empezará el lunes 10 de Marzo. Las clases serán los lunes, martes y jueves, siendo la última sesión el 3 de Abril. El formato será online en directo, empezando a las 18:30 hasta las 20:30 UTC+1 (horario Madrid)."
+        "$value": "No es necesario tener experiencia previa. En el curso cubrimos desde los conceptos básicos de Unity y programación en C# hasta técnicas avanzadas de desarrollo 2D."
       }
     },
     "two": {
       "title": {
         "$type": "text",
-        "$value": "¿Qué nivel de conocimientos necesito para el curso?"
+        "$value": "¿Qué software y herramientas necesito instalar antes de comenzar?"
       },
       "description": {
         "$type": "text",
-        "$value": "El curso va dirigido a cualquier perfil involucrado en el desarrollo de productos digitales, desde diseñadores a desarrolladores y product managers que quieran conocer la metodología para mejorar la escalabilidad y comunicación entre equipos a través de los Design Tokens. Daremos por sentada mucha información básica, por lo que si tienes dudas tanto sobre si este curso es para tí, como si va a cubrir tus expectativas, por favor contáctanos por correo y te daremos más info."
+        "$value": "Debes instalar Unity (versión recomendada en la descripción del curso) y Visual Studio para escribir código en C#. En el primer módulo del curso te guiaremos paso a paso en la instalación."
       }
     },
     "three": {
       "title": {
         "$type": "text",
-        "$value": "¿Necesito saber programar para el curso?"
+        "$value": "¿Cómo se imparten las clases y cuál es la duración del curso?"
       },
       "description": {
         "$type": "text",
-        "$value": "No es necesario. Partiremos desde cero a la hora de enseñar cómo transformar y llevar a producción nuestros Design Tokens, por lo que no tendrás problemas de seguir las clases aunque nunca hayas programado."
+        "$value": "El curso es 100% online y consta de lecciones en video pregrabadas que puedes ver a tu propio ritmo. Además, tendrás acceso a materiales descargables y ejercicios prácticos."
       }
     },
     "four": {
@@ -333,27 +333,27 @@
       },
       "description": {
         "$type": "text",
-        "$value": "Sí, cada clase se grabará y se mantendrá disponible por un tiempo limitado, por si necesitas volver a verla o no has podido asistir."
+        "$value": "Sí, al completar todas las lecciones y aprobar los proyectos requeridos, recibirás un certificado de finalización que podrás agregar a tu portafolio o perfil profesional."
       }
     },
     "five": {
       "title": {
         "$type": "text",
-        "$value": "¿Podré resolver dudas tras el curso?"
+        "$value": "¿Recibiré un certificado al finalizar el curso?"
       },
       "description": {
         "$type": "text",
-        "$value": "Sí, tendrás acceso de por vida a la comunidad de alumnos, donde podrás preguntar dudas y mantenerte al día de las novedades en el mundillo tecnológico y de Design Tokens. Además, tendrás acceso a la Bitácora de contenido, donde actualizaremos referencias y añadiremos contenido extra continuamente."
+        "$value": "Sí, ofrecemos soporte a través de un foro de estudiantes donde podrás hacer preguntas y recibir ayuda de instructores y compañeros. También realizamos sesiones en vivo ocasionalmente para resolver dudas."
       }
     },
     "six": {
       "title": {
         "$type": "text",
-        "$value": "¿Habrá más ediciones?"
+        "$value": "¿Puedo acceder al contenido después de terminar el curso?"
       },
       "description": {
         "$type": "text",
-        "$value": "Sí. Próximamente anunciaremos las fechas de las siguientes ediciones. Puedes mantenerte al tanto siguiendo nuestra página de Linkedin."
+        "$value": "Sí, tendrás acceso ilimitado al contenido del curso, incluyendo actualizaciones futuras, para que puedas repasar o mejorar tus proyectos cuando lo necesites.\n\nSi tienes más preguntas, no dudes en contactarnos. ¡Te esperamos en el curso! 🚀🎮"
       }
     },
     "title": {
@@ -364,7 +364,7 @@
   "footer": {
     "copyright": {
       "$type": "text",
-      "$value": "Design Tokens en Español © 2024 Todos los derechos reservados."
+      "$value": "Unity2D © 2025 Todos los derechos reservados."
     },
     "link": {
       "privacy": {
@@ -373,15 +373,11 @@
       },
       "mail": {
         "$type": "text",
-        "$value": "hola@designtokens.es"
+        "$value": "hola@unity2d.es"
       },
       "linkedin": {
         "$type": "text",
         "$value": "Linkedin"
-      },
-      "substack": {
-        "$type": "text",
-        "$value": "Substack"
       }
     }
   },

@@ -258,7 +258,8 @@
       "color.palette.mono.950": "S:abf7d00718047f9d5dc8dacf12c4b9e691c0f9c1,",
       "color.palette.black": "S:e378e61c52484604efa5c53cadd70198acd757dc,",
       "font.button.default": "S:3c65b99fa9fd935a1d3bdd91e6587653c7a60738,",
-      "medium": "S:434e7a32eab0d25f695676ee012f8fafa66e4c20,"
+      "boxshadow.button.primary": "S:6d2fadabd812637c89004d32ae40e09c9402259a,",
+      "boxshadow.button.secondary": "S:1787536ebe900fdffcd558de29fc0b9e88f32163,"
     },
     "$figmaVariableReferences": {
       "dimension.x000": "5401010e92a5e59aebddce2ca799ff998feb11ac",
@@ -416,7 +417,8 @@
       "font.caption.m.default": "S:21a5549f1439c9f58c5980669444fafe4eb4d95e,",
       "font.caption.m.strong": "S:2182721dce9c2d8ca3c6941e10153879bf4849d6,",
       "font.caption.m.uppercase": "S:0fc8dbd63c6b10a41374ba583905d2e629537dee,",
-      "font.caption.m.underline": "S:797fd4b9d3bc1c986d336f9f447b51660ba0af97,"
+      "font.caption.m.underline": "S:797fd4b9d3bc1c986d336f9f447b51660ba0af97,",
+      "font.headline.xxl": "S:38e0d6c0e3a471e6b5e97fc5d1248d30cbf10baa,"
     },
     "$figmaVariableReferences": {}
   },
@@ -439,7 +441,8 @@
       "font.caption.m.default": "S:b6027b02fe1b29233ac151225ca899038b90efe2,",
       "font.caption.m.strong": "S:49b08433ebf50be7b7981e25edf3ba23dc61ef00,",
       "font.caption.m.uppercase": "S:99701505db4227b95034cbc967f4ecacdd9e440d,",
-      "font.caption.m.underline": "S:caeb39459e80630e8ff9ac75858ce6c1a2c1a16a,"
+      "font.caption.m.underline": "S:caeb39459e80630e8ff9ac75858ce6c1a2c1a16a,",
+      "font.headline.xxl": "S:ad7c58757fa651caeb88dbdf0f48ad49ef892781,"
     },
     "$figmaVariableReferences": {}
   },
@@ -530,7 +533,6 @@
       "footer.link.privacy": "a98567d44b6081b1fde99c4b0734c03c408bd4a8",
       "footer.link.mail": "81667b8111c49b57b6b601a3c7385f12f86c2c2a",
       "footer.link.linkedin": "f3d8cb6d90493578ece7f7f5d50c53cf03817082",
-      "footer.link.substack": "66cec99471652a9fe454b15997f983aa24885875",
       "language.es": "e0cafaa134257b1a2a95e869c2bd08a2f1b05e6c",
       "language.en": "c8e126387cf004bbaaf382dea7c35da7bb03d8f1"
     },
@@ -624,15 +626,9 @@
       "footer.link.privacy": "a98567d44b6081b1fde99c4b0734c03c408bd4a8",
       "footer.link.mail": "81667b8111c49b57b6b601a3c7385f12f86c2c2a",
       "footer.link.linkedin": "f3d8cb6d90493578ece7f7f5d50c53cf03817082",
-      "footer.link.substack": "66cec99471652a9fe454b15997f983aa24885875",
       "language.es": "e0cafaa134257b1a2a95e869c2bd08a2f1b05e6c",
       "language.en": "c8e126387cf004bbaaf382dea7c35da7bb03d8f1",
-      "sessions.card.nine.caption": "15d8582d54c13cc482d07eae04690e06f26abdd0",
-      "sessions.card.nine.title": "1ddd26fd0ef2fd29d373af63a80e7b2c84a75c96",
-      "sessions.card.nine.description": "aba9313206731fe465087757167f0b3eb030bbc7",
-      "sessions.card.ten.caption": "ce807819a3983fc5179a87a694e5a1f9deaa93d0",
-      "sessions.card.ten.title": "e062eeed3f1a1f15ff4bb100db025fe70c87d8b5",
-      "sessions.card.ten.description": "2f30b77b79ddd234cfb7f0ee83121e8ca8c09c03"
+      "footer.link.substack": "66cec99471652a9fe454b15997f983aa24885875"
     },
     "$figmaCollectionId": "VariableCollectionId:2275:2364",
     "$figmaModeId": "2275:1"

@@ -2,7 +2,7 @@
   "hero": {
     "title": {
       "$type": "text",
-      "$value": "Learn to design 2D games with Unity"
+      "$value": "Design 2D games with Unity"
     },
     "subtitle": {
       "$type": "text",
@@ -42,7 +42,7 @@
   "logos": {
     "title": {
       "$type": "text",
-      "$value": "Major companies are already working with Design Tokens"
+      "$value": "Major companies are already designing with Unity"
     }
   },
   "sessions": {
@@ -53,11 +53,11 @@
     "tag": {
       "one": {
         "$type": "text",
-        "$value": "12 LIVE SESSIONS"
+        "$value": "8 recorded sessions"
       },
       "two": {
         "$type": "text",
-        "$value": "8 courses"
+        "$value": "24 hours"
       },
       "three": {
         "$type": "text",
@@ -80,11 +80,11 @@
         },
         "title": {
           "$type": "text",
-          "$value": "The Single Source of Truth"
+          "$value": "Introduction to Unity and Basic Concepts"
         },
         "description": {
           "$type": "text",
-          "$value": "We will discuss the communication problem between design and development teams and how Design Tokens can help you improve the process, serving as the single source of truth. In addition to introductions and delving deeper into what we will cover during the course, we will showcase what a complete workflow looks like from design to implementation."
+          "$value": "Get to know the interface and main functions to create your first project."
         }
       },
       "two": {
@@ -94,11 +94,11 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Token Architecture"
+          "$value": "Unity for 2D Games"
         },
         "description": {
           "$type": "text",
-          "$value": "You will delve into the theory and best practices behind the implementation of Design Tokens. The goal will be to clarify the principles and understand the decision-making process of their creation."
+          "$value": "Master the tools and utilities Unity offers to create your 2D game."
         }
       },
       "three": {
@@ -108,109 +108,83 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Synchronization with GitHub"
+          "$value": "Game Programming",
+          "$description": "Learn the basic concepts of game programming."
         },
         "description": {
           "$type": "text",
-          "$value": "You will learn how to synchronize your Design Tokens between Figma and GitHub, ensuring that your application's styles and components are always up to date and in sync."
+          "$value": "You will learn how to sync your Design Tokens between Figma and GitHub, ensuring that your app’s styles and components are always updated and aligned."
         }
       },
       "four": {
         "caption": {
           "$type": "text",
-          "$value": "SESSION 4, 5, 6"
+          "$value": "SESSION 4"
         },
         "title": {
           "$type": "text",
-          "$value": "Hands-on in Figma and Token Studio"
+          "$value": "2D Animation",
+          "$description": "Create your first 2D animation in Unity"
         },
         "description": {
           "$type": "text",
-          "$value": "We'll get hands-on with tokenizing our interface, understanding and diving deeper into creating Design Tokens using Figma and Token Studio."
+          "$value": "We will practice tokenizing our interface, understanding and deepening the creation of Design Tokens with Figma and Token Studio tools."
         }
       },
       "five": {
+        "caption": {
+          "$type": "text",
+          "$value": "SESSION 5"
+        },
+        "title": {
+          "$type": "text",
+          "$value": "2D Physics in Unity"
+        },
+        "description": {
+          "$type": "text",
+          "$value": "Delve into physics and discover the tools to control gravity."
+        }
+      },
+      "six": {
+        "caption": {
+          "$type": "text",
+          "$value": "SESSION 6"
+        },
+        "title": {
+          "$type": "text",
+          "$value": "The Tilemap Tool"
+        },
+        "description": {
+          "$type": "text",
+          "$value": "Create unique environments with the Tilemap tool."
+        }
+      },
+      "seven": {
         "caption": {
           "$type": "text",
           "$value": "SESSION 7"
         },
         "title": {
           "$type": "text",
-          "$value": "Style Dictionary"
+          "$value": "User Interface (UI)"
         },
         "description": {
           "$type": "text",
-          "$value": "You will discover how to use Style Dictionary to manage your Design Tokens from a single source of truth. We will see how to configure it and feed it from the Figma tokens stored in GitHub."
+          "$value": "Learn how to create the start and game over menus for your game."
         }
       },
-      "six": {
+      "eight": {
         "caption": {
           "$type": "text",
           "$value": "SESSION 8"
         },
         "title": {
           "$type": "text",
-          "$value": "Transformers"
+          "$value": "Let’s Make a Game"
         },
         "description": {
           "$type": "text",
-          "$value": "In this session, you will learn how to use transformers in Style Dictionary to convert and adapt Design Tokens to various platform needs."
-        }
-      },
-      "seven": {
-        "caption": {
-          "$type": "text",
-          "$value": "SESSION 9"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Formats"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "You will see how to use formats in Style Dictionary to define the output of Design Tokens in different languages and platforms (CSS, JavaScript, Swift, XML, etc.). You will learn how to create custom formats that cater to your project's specific needs, enabling a more efficient workflow between design and development."
-        }
-      },
-      "eight": {
-        "caption": {
-          "$type": "text",
-          "$value": "SESSION 10"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Dark Mode"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "You will discover the complete workflow for implementing Dark Mode in projects using Style Dictionary."
-        }
-      },
-      "nine": {
-        "caption": {
-          "$type": "text",
-          "$value": "SESSION 11"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Coding Practice"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "We will put into practice everything covered in the sessions about transformers and formats, so you won't have any doubts."
-        }
-      },
-      "ten": {
-        "caption": {
-          "$type": "text",
-          "$value": "SESSION 12"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Presentations"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "This will be an opportunity to share the Design Tokens projects developed during the course, exchange ideas and improvements, and say our farewells."
+          "$value": "Add the final touches to complete your game like a pro."
         }
       }
     }
@@ -219,11 +193,11 @@
     "one": {
       "name": {
         "$type": "text",
-        "$value": "Pablo Fernández Franco"
+        "$value": "Elena Ferreras"
       },
       "position": {
         "$type": "text",
-        "$value": "Platform Team Lead at idealista"
+        "$value": "Design Systems at Haufe"
       }
     },
     "two": {
@@ -238,7 +212,7 @@
     },
     "title": {
       "$type": "text",
-      "$value": "Meet the Instructors"
+      "$value": "Meet the instructor"
     }
   },
   "pricing": {
@@ -325,61 +299,61 @@
     "one": {
       "title": {
         "$type": "text",
-        "$value": "When will the classes be held?"
+        "$value": "Do I need prior experience in programming or design to take this course?"
       },
       "description": {
         "$type": "text",
-        "$value": "The 2nd edition will start on Monday, March 10. Classes will be on Mondays, Tuesdays, and Thursdays, with the last session on April 3. The format will be live online, starting at 6:30 PM UTC+1 (Madrid time)."
+        "$value": "No prior experience is required. The course covers everything from the basics of Unity and C# programming to advanced 2D development techniques."
       }
     },
     "two": {
       "title": {
         "$type": "text",
-        "$value": "What level of knowledge do I need for the course?"
+        "$value": "What software and tools do I need to install before starting?"
       },
       "description": {
         "$type": "text",
-        "$value": "The course is aimed at anyone involved in the development of digital products, from designers to developers and product managers who want to learn the methodology to improve scalability and team communication through Design Tokens. We will assume quite a bit of basic information, so if you have any doubts about whether this course is for you, or if it will meet your expectations, please contact us by email and we will provide more info."
+        "$value": "You need to install Unity (recommended version provided in the course description) and Visual Studio to write C# code. In the first module, we’ll guide you step by step through the installation process."
       }
     },
     "three": {
       "title": {
         "$type": "text",
-        "$value": "Do I need to know how to program for the course?"
+        "$value": "How are the classes delivered, and how long is the course?"
       },
       "description": {
         "$type": "text",
-        "$value": "No. We will start from scratch when teaching how to transform and bring our Design Tokens into production, so you will have no trouble following the lessons even if you've never programmed before."
+        "$value": "The course is 100% online and consists of pre-recorded video lessons that you can watch at your own pace. You’ll also have access to downloadable materials and practical exercises."
       }
     },
     "four": {
       "title": {
         "$type": "text",
-        "$value": "Will the classes be recorded?"
+        "$value": "Will I receive a certificate upon completing the course?"
       },
       "description": {
         "$type": "text",
-        "$value": "Yes, each class will be recorded and kept available for a limited time, in case you need to rewatch or were unable to attend."
+        "$value": "Yes, after completing all lessons and passing the required projects, you will receive a completion certificate that you can add to your portfolio or professional profile."
       }
     },
     "five": {
       "title": {
         "$type": "text",
-        "$value": "Will I be able to ask questions after the course?"
+        "$value": "Will I get support if I have questions during the course?"
       },
       "description": {
         "$type": "text",
-        "$value": "Yes, you will have lifetime access to the student community, where you can ask questions and stay up to date on the latest in technology and Design Tokens. Plus, you'll have access to the Content Log, where we'll continually update references and add extra content."
+        "$value": "Yes, we offer support through a student forum where you can ask questions and receive help from instructors and peers. We also occasionally hold live sessions to address doubts."
       }
     },
     "six": {
       "title": {
         "$type": "text",
-        "$value": "Will there be more editions?"
+        "$value": "Can I access the content after finishing the course?"
       },
       "description": {
         "$type": "text",
-        "$value": "Yes. We will announce the dates for future editions soon. You can stay informed by following our LinkedIn page."
+        "$value": "Yes, you’ll have lifetime access to the course content, including future updates, so you can review or improve your projects whenever needed.\n\nIf you have any other questions, feel free to reach out. We look forward to seeing you in the course! 🚀🎮"
       }
     },
     "title": {

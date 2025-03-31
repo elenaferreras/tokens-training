@@ -1,6 +1,16 @@
 {
   "font": {
     "headline": {
+      "xxl": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{fontFamily.primary}",
+          "fontWeight": "{fontWeight.primary.medium}",
+          "lineHeight": "{lineHeight.small}",
+          "fontSize": "{fontSize.1000}",
+          "letterSpacing": "{letterSpacing.contracted}"
+        }
+      },
       "xl": {
         "$type": "typography",
         "$value": {

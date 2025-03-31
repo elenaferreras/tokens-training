@@ -1,6 +1,16 @@
 {
   "font": {
     "headline": {
+      "xxl": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{fontFamily.primary}",
+          "fontWeight": "{fontWeight.primary.medium}",
+          "fontSize": "128",
+          "lineHeight": "80%",
+          "letterSpacing": "{letterSpacing.contracted}"
+        }
+      },
       "xl": {
         "$type": "typography",
         "$value": {
@@ -104,7 +114,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{fontFamily.primary}",
-            "fontWeight": "{fontWeight.secondary.medium}",
+            "fontWeight": "{fontWeight.primary.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
             "letterSpacing": "{letterSpacing.expanded}",

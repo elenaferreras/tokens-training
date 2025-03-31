@@ -34,7 +34,7 @@
         },
         "accent": {
           "$type": "color",
-          "$value": "{color.palette.pink.300}"
+          "$value": "{color.palette.pink.600}"
         },
         "accent-light": {
           "$type": "color",
@@ -44,7 +44,7 @@
       "border": {
         "primary": {
           "$type": "color",
-          "$value": "{color.button.border.primary.default}"
+          "$value": "{color.palette.pink.600}"
         },
         "accent": {
           "$type": "color",
