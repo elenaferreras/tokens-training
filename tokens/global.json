@@ -150,7 +150,7 @@
   "fontFamily": {
     "primary": {
       "$type": "fontFamilies",
-      "$value": "TINY 5x3"
+      "$value": "Tiny5"
     },
     "secondary": {
       "$type": "fontFamilies",
@@ -185,15 +185,15 @@
     "primary": {
       "regular": {
         "$type": "fontWeights",
-        "$value": "100"
+        "$value": "regular"
       },
       "medium": {
         "$type": "fontWeights",
-        "$value": "140"
+        "$value": "regular"
       },
       "semibold": {
         "$type": "fontWeights",
-        "$value": "160"
+        "$value": "regular"
       }
     }
   },
