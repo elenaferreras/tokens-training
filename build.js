@@ -13,6 +13,8 @@ import ThemesLoader from 'sd-themes-loader';
      const themes = await loader.load('/tokens');
  
      const globalTheme = themes.getThemeByName('global');
+
+     const lightTheme = themes.getThemeByName('light');
  
      const config = {
          platforms: {
@@ -36,9 +38,29 @@ import ThemesLoader from 'sd-themes-loader';
          }
      };
 
+     const lightConfig = {
+        platforms: {
+            web: {
+                files: [
+                    {
+                        destination: 'app/build/light/variables.css',
+                        format: 'css/variables',
+                    }
+                ],
+
+               transforms: [
+                   'name/kebab',
+                   'color/rgb',
+                   'attribute/color',
+               ]
+       
+            }
+        }
+    };
      //app/build/light/variables.css
  
      globalTheme.addConfig(config).build();
+     lightTheme.addConfig(lightConfig).build();
  
  }
  
