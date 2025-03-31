@@ -30,7 +30,7 @@ import ThemesLoader from 'sd-themes-loader';
                     'name/kebab',
                     'ts/resolveMath',
                     'ts/typography/fontWeight',
-                    'ts/size/lineHeight',
+                    'ts/size/lineheight',
                     'size/pxToRem'
                 ]
         
