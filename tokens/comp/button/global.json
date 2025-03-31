@@ -29,31 +29,5 @@
         "$value": "{borderRadius.small}"
       }
     }
-  },
-  "boxshadow": {
-    "button": {
-      "primary": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "-4",
-          "y": "4",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.core.shadow.primary}",
-          "type": "dropShadow"
-        }
-      },
-      "secondary": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "-4",
-          "y": "4",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.palette.mono.700}",
-          "type": "dropShadow"
-        }
-      }
-    }
   }
 }
