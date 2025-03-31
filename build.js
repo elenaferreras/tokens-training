@@ -15,6 +15,8 @@ import ThemesLoader from 'sd-themes-loader';
      const globalTheme = themes.getThemeByName('global');
 
      const lightTheme = themes.getThemeByName('light');
+
+     const darkTheme = themes.getThemeByName('dark');
  
      const config = {
          platforms: {
@@ -57,10 +59,29 @@ import ThemesLoader from 'sd-themes-loader';
             }
         }
     };
-     //app/build/light/variables.css
+    const darkConfig = {
+        platforms: {
+            web: {
+                files: [
+                    {
+                        destination: 'app/build/dark/variables.css',
+                        format: 'css/variables',
+                    }
+                ],
+
+               transforms: [
+                   'name/kebab',
+                   'color/rgb',
+                   'attribute/color',
+               ]
+       
+            }
+        }
+    };
  
      globalTheme.addConfig(config).build();
      lightTheme.addConfig(lightConfig).build();
+     darkTheme.addConfig(darkConfig).build();
  
  }
  
