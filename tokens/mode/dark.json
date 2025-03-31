@@ -50,16 +50,6 @@
           "$type": "color",
           "$value": "{color.palette.pink.500}"
         }
-      },
-      "shadow": {
-        "primary": {
-          "$type": "color",
-          "$value": "{color.palette.white}"
-        },
-        "secondary": {
-          "$type": "color",
-          "$value": "{color.button.border.secondary.default}"
-        }
       }
     },
     "states": {

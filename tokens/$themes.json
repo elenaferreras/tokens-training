@@ -35,8 +35,6 @@
       "color.core.background.accent-light": "088253d4d2070a2c7cd7f84409c925fe03e81455",
       "color.core.border.primary": "7e50e796d8390c2358a5488c4ca96d280b6c1848",
       "color.core.border.accent": "131002c2b1d4ca9d1d6daadc420201d84e78759b",
-      "color.core.shadow.primary": "dcadbe5da5c57968dc79c579c474c41598fce46e",
-      "color.core.shadow.secondary": "67c0d443be3dbdd0c0284cd2d2cc7e638a5c72fa",
       "color.states.background.accent-hover": "3816cba63b11754f9baa9657974fdf3ba7e82a4b",
       "color.states.background.accent-light-hover": "563846efad093739e58090f3f7d6d9d69d7789f5",
       "color.states.background.accent-active": "a769b172e4786d1a8858df22b31ecc9edd74c46a",
@@ -159,8 +157,6 @@
       "color.core.background.accent-light": "088253d4d2070a2c7cd7f84409c925fe03e81455",
       "color.core.border.primary": "7e50e796d8390c2358a5488c4ca96d280b6c1848",
       "color.core.border.accent": "131002c2b1d4ca9d1d6daadc420201d84e78759b",
-      "color.core.shadow.primary": "dcadbe5da5c57968dc79c579c474c41598fce46e",
-      "color.core.shadow.secondary": "67c0d443be3dbdd0c0284cd2d2cc7e638a5c72fa",
       "color.states.background.accent-hover": "3816cba63b11754f9baa9657974fdf3ba7e82a4b",
       "color.states.background.accent-light-hover": "563846efad093739e58090f3f7d6d9d69d7789f5",
       "color.states.background.accent-active": "a769b172e4786d1a8858df22b31ecc9edd74c46a",
@@ -262,9 +258,7 @@
       "color.palette.mono.950": "S:abf7d00718047f9d5dc8dacf12c4b9e691c0f9c1,",
       "color.palette.black": "S:e378e61c52484604efa5c53cadd70198acd757dc,",
       "font.button.default": "S:3c65b99fa9fd935a1d3bdd91e6587653c7a60738,",
-      "medium": "S:434e7a32eab0d25f695676ee012f8fafa66e4c20,",
-      "boxshadow.button.primary": "S:6d2fadabd812637c89004d32ae40e09c9402259a,",
-      "boxshadow.button.secondary": "S:1787536ebe900fdffcd558de29fc0b9e88f32163,"
+      "medium": "S:434e7a32eab0d25f695676ee012f8fafa66e4c20,"
     },
     "$figmaVariableReferences": {
       "dimension.x000": "5401010e92a5e59aebddce2ca799ff998feb11ac",

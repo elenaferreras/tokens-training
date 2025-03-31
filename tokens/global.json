@@ -286,16 +286,5 @@
       "$type": "textCase",
       "$value": "uppercase"
     }
-  },
-  "medium": {
-    "$type": "boxShadow",
-    "$value": {
-      "x": "- {dimension.x100}",
-      "y": "{dimension.x100}",
-      "blur": "0",
-      "spread": "0",
-      "color": "{color.core.border.primary}",
-      "type": "dropShadow"
-    }
   }
 }

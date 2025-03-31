@@ -22,7 +22,14 @@ import ThemesLoader from 'sd-themes-loader';
                          destination: 'app/build/global/variables.css',
                          format: 'css/variables',
                      }
-                 ]
+                 ],
+
+                transforms: [
+                    'name/kebab',
+                    'ts/resolveMath',
+                    'size/pxToRem'
+                ]
+        
              }
          }
      };

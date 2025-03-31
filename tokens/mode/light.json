@@ -50,16 +50,6 @@
           "$type": "color",
           "$value": "{color.palette.cyan.400}"
         }
-      },
-      "shadow": {
-        "primary": {
-          "$type": "color",
-          "$value": "{color.palette.black}"
-        },
-        "secondary": {
-          "$type": "color",
-          "$value": "{color.button.border.secondary.default}"
-        }
       }
     },
     "states": {
