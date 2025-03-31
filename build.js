@@ -27,12 +27,16 @@ import ThemesLoader from 'sd-themes-loader';
                 transforms: [
                     'name/kebab',
                     'ts/resolveMath',
+                    'ts/typography/fontWeight',
+                    'ts/size/lineHeight',
                     'size/pxToRem'
                 ]
         
              }
          }
      };
+
+     //app/build/light/variables.css
  
      globalTheme.addConfig(config).build();
  
