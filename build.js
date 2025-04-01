@@ -25,9 +25,9 @@ StyleDictionary.registerTransform({
 
      const darkTheme = themes.getThemeByName('dark');
 
-     //const desktopTheme = themes.getThemeByName('desktop');
+     const desktopTheme = themes.getThemeByName('desktop');
 
-     //const mobileTheme = themes.getThemeByName('desktop');
+     const mobileTheme = themes.getThemeByName('desktop');
  
      const config = {
          platforms: {
@@ -58,6 +58,9 @@ StyleDictionary.registerTransform({
                     {
                         destination: 'app/build/light/variables.css',
                         format: 'css/variables',
+                        options: {
+                            selector: '.light'
+                        }
                     }
                 ],
 
@@ -79,6 +82,9 @@ StyleDictionary.registerTransform({
                     {
                         destination: 'app/build/dark/variables.css',
                         format: 'css/variables',
+                        options: {
+                            selector: '.dark'
+                        }
                     }
                 ],
 
@@ -93,7 +99,10 @@ StyleDictionary.registerTransform({
         }
     };
 
-    /*const desktopConfig = {
+    const desktopConfig = {
+        expand: {
+            typesMap: true,
+        },
         platforms: {
             web: {
                 files: [
@@ -108,12 +117,16 @@ StyleDictionary.registerTransform({
                 'ts/resolveMath',
                 'ts/typography/fontWeight',
                 'ts/size/lineheight',
+                'size/pxToRem',
                ]
        
             }
         }
     };
     const mobileConfig = {
+        expand: {
+            typesMap: true,
+        },
         platforms: {
             web: {
                 files: [
@@ -128,19 +141,20 @@ StyleDictionary.registerTransform({
                    'ts/resolveMath',
                    'ts/typography/fontWeight',
                    'ts/size/lineheight',
+                   'size/pxToRem',
                ]
        
             }
         }
-    };*/
+    };
  
     
 
      globalTheme.addConfig(config).build();
      lightTheme.addConfig(lightConfig).build();
      darkTheme.addConfig(darkConfig).build();
-     //desktopTheme.addConfig(desktopConfig).build();
-     //mobileTheme.addConfig(mobileConfig).build();
+     desktopTheme.addConfig(desktopConfig).build();
+     mobileTheme.addConfig(mobileConfig).build();
 
  
  }
