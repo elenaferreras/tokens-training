@@ -5,7 +5,14 @@ import ThemesLoader from 'sd-themes-loader';
  register(StyleDictionary, {
      withSDBuiltins: false,
  });
- 
+
+StyleDictionary.registerTransform({
+    name: 'asset/background',
+    type: 'value',
+    filter: (token) => token.$type === 'asset',
+    transform: (token) => `url('/app/assets/${token.$value}')`
+})
+
  const loader = ThemesLoader(StyleDictionary);
  
  async function run() {
@@ -17,6 +24,10 @@ import ThemesLoader from 'sd-themes-loader';
      const lightTheme = themes.getThemeByName('light');
 
      const darkTheme = themes.getThemeByName('dark');
+
+     //const desktopTheme = themes.getThemeByName('desktop');
+
+     //const mobileTheme = themes.getThemeByName('desktop');
  
      const config = {
          platforms: {
@@ -54,11 +65,13 @@ import ThemesLoader from 'sd-themes-loader';
                    'name/kebab',
                    'color/rgb',
                    'attribute/color',
+                   'asset/background',
                ]
        
             }
         }
     };
+
     const darkConfig = {
         platforms: {
             web: {
@@ -73,15 +86,62 @@ import ThemesLoader from 'sd-themes-loader';
                    'name/kebab',
                    'color/rgb',
                    'attribute/color',
+                   'asset/background',
                ]
        
             }
         }
     };
+
+    /*const desktopConfig = {
+        platforms: {
+            web: {
+                files: [
+                    {
+                        destination: 'app/build/desktop/variables.css',
+                        format: 'css/variables',
+                    }
+                ],
+
+               transforms: [
+                'name/kebab',
+                'ts/resolveMath',
+                'ts/typography/fontWeight',
+                'ts/size/lineheight',
+               ]
+       
+            }
+        }
+    };
+    const mobileConfig = {
+        platforms: {
+            web: {
+                files: [
+                    {
+                        destination: 'app/build/mobile/variables.css',
+                        format: 'css/variables',
+                    }
+                ],
+
+               transforms: [
+                   'name/kebab',
+                   'ts/resolveMath',
+                   'ts/typography/fontWeight',
+                   'ts/size/lineheight',
+               ]
+       
+            }
+        }
+    };*/
  
+    
+
      globalTheme.addConfig(config).build();
      lightTheme.addConfig(lightConfig).build();
      darkTheme.addConfig(darkConfig).build();
+     //desktopTheme.addConfig(desktopConfig).build();
+     //mobileTheme.addConfig(mobileConfig).build();
+
  
  }
  
