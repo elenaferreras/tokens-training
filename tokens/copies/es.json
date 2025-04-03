@@ -224,11 +224,11 @@
       "one": {
         "caption": {
           "$type": "text",
-          "$value": "NEWSLETTER"
+          "$value": "Jugador Casual"
         },
         "title": {
           "$type": "text",
-          "$value": "Design Tokens en español"
+          "$value": "🎮 Tier 1: Básico"
         },
         "price": {
           "$type": "text",
@@ -236,21 +236,21 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Suscríbete a nuestra newsletter para recibir píldoras y novedades sobre Design Tokens."
+          "$value": "🔹 Acceso a los módulos básicos del curso (introducción a Unity, fundamentos del diseño 2D, y primeros pasos con C#).\n🔹 Materiales en PDF y ejercicios."
         },
         "button": {
           "$type": "text",
-          "$value": "Suscribirme"
+          "$value": "Apuntarme"
         }
       },
       "two": {
         "caption": {
           "$type": "text",
-          "$value": "CURSO EN DIRECTO"
+          "$value": "Desarrollador Indie"
         },
         "title": {
           "$type": "text",
-          "$value": "Diseño e Implementación de Design Tokens"
+          "$value": "🏆 Tier 2: Intermedio"
         },
         "price-primary": {
           "$type": "text",
@@ -262,7 +262,7 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Aprende el proceso de creación de Design Tokens desde la definición hasta la implementación en desarrollo."
+          "$value": "✅ Todo lo del Tier Básico, más:\n🔹 Acceso a módulos avanzados.\n🔹 Proyecto final guiado con feedback.\n🔹 Acceso a sesiones en vivo con el instructor."
         },
         "button": {
           "$type": "text",
@@ -272,15 +272,15 @@
       "three": {
         "caption": {
           "$type": "text",
-          "$value": "ASESORÍA PRIVADA"
+          "$value": "Maestro del Pixel"
         },
         "title": {
           "$type": "text",
-          "$value": "¿Quieres que te ayudemos en tu proyecto?"
+          "$value": "🔥 Tier 3: Premium"
         },
         "description": {
           "$type": "text",
-          "$value": "Contáctanos para ayudarte de forma más personalizada en tu proyecto o empresa."
+          "$value": "🔥 Todo lo del Tier Intermedio, más:\n🔹 Mentorías 1:1 con un instructor experimentado.\n🔹 Acceso exclusivo a recursos premium."
         },
         "button": {
           "$type": "text",

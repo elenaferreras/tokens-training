@@ -224,11 +224,11 @@
       "one": {
         "caption": {
           "$type": "text",
-          "$value": "NEWSLETTER"
+          "$value": "Casual Player"
         },
         "title": {
           "$type": "text",
-          "$value": "Design Tokens in Spanish"
+          "$value": "🎮 Tier 1: Basic"
         },
         "price": {
           "$type": "text",
@@ -236,7 +236,7 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Subscribe to our newsletter to receive bite-sized updates and news about Design Tokens."
+          "$value": "🔹 Access to basic course modules (introduction to Unity, 2D design fundamentals, and first steps with C#).\n🔹 PDF materials and exercises."
         },
         "button": {
           "$type": "text",
@@ -250,7 +250,7 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Design and Implementation of Design Tokens"
+          "$value": "🏆 Tier 2: Intermediate"
         },
         "price-primary": {
           "$type": "text",
@@ -262,7 +262,7 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Learn the process of creating Design Tokens from definition to implementation in development."
+          "$value": "✅ Everything in the Basic Tier, plus:\n🔹 Access to advanced modules.\n🔹 A guided final project with personalised feedback."
         },
         "button": {
           "$type": "text",
