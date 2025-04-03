@@ -83,7 +83,7 @@
     "intro": {
       "right": {
         "$type": "asset",
-        "$value": "galaxy-dark.svg"
+        "$value": "galaxy-dark.gif"
       }
     },
     "header": {
