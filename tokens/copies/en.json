@@ -203,11 +203,11 @@
     "two": {
       "name": {
         "$type": "text",
-        "$value": "Pablo Peribáñez Tafalla"
+        "$value": "Ron Swanson"
       },
       "position": {
         "$type": "text",
-        "$value": "Design Systems at idealista"
+        "$value": "Director of Parks and Recreation"
       }
     },
     "title": {
