@@ -215,8 +215,8 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
               </div>
               <div>
                 <LiteYouTubeEmbed
-                    id="pjc-6Ff_Ezc"
-                    title="Webinar sobre el curso de design tokens"
+                    id="J1sFBDQt8J0"
+                    title="Video sobre animaciones 2D"
                 />
               </div>
           </div>

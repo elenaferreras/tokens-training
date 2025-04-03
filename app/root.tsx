@@ -75,7 +75,7 @@ export function Layout ({ actionData = { theme : 'light '} } : Route.ComponentPr
             <link rel="stylesheet" href={mobileVariablesHref} media="only screen and (max-width:768px)" />
             <link rel="stylesheet" href={appStylesHref} />
             <Links />
-            <title>Design Tokens </title>
+            <title> Unity 2D Games </title>
           </head>
           <body className={!data ? actionData.theme : data.theme}>
               <nav className="navbar dst-navbar">
