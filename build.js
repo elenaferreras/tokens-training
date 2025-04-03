@@ -28,7 +28,23 @@ StyleDictionary.registerTransform({
      const desktopTheme = themes.getThemeByName('desktop');
 
      const mobileTheme = themes.getThemeByName('desktop');
+
+     const copiesTheme = themes.getThemesByGroup('copies');
  
+     const copiesConfig = (theme) => ({
+        platforms: {
+            copies: {
+                files: [
+                    {
+                        destination: `app/build/copies/${theme.name}/texts.json`,
+                        format: 'json/nested',
+                    }
+                ]
+            }
+        }
+
+     });
+
      const config = {
          platforms: {
              web: {
@@ -155,6 +171,7 @@ StyleDictionary.registerTransform({
      darkTheme.addConfig(darkConfig).build();
      desktopTheme.addConfig(desktopConfig).build();
      mobileTheme.addConfig(mobileConfig).build();
+     copiesTheme.addConfig(copiesConfig).build();
 
  
  }
